@@ -3,7 +3,7 @@ import pyautogui
 size = pyautogui.size() # 현 화면의 스크린 사이즈(가로, 세로)
 
 pyautogui.moveTo(200, 100, duration=0.5)  # 절대위치, 시간 동안
-print(pyautogui.position()) # Point(x, y) # 현 위치 출력
+print(pyautogui.position()) # Point(x, y) # 현 위치 출력 오오,,,
 pyautogui.moveTo(300, 200, duration=0.5)
 print(pyautogui.position()) # Point(x, y)
 
